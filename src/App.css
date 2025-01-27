@@ -24,8 +24,15 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App_color_container {
+  width: 200px; /* Corrigido para 'px' */
+  height: 200px; /* Corrigido para 'px' */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px; /* Opcional: bordas arredondadas */
+  border: 2px solid #282c34; /* Combina largura, estilo e cor */
+  border-width: 2px;
 }
 
 @keyframes App-logo-spin {
